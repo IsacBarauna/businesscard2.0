@@ -1,0 +1,62 @@
+body {
+    margin: 20px;
+    font-family: Georgia ;
+}
+
+.avatar {
+    width: 150px;
+    border: solid 2px #fdfcdc;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 20px 15px -8px #0a6e74;
+    margin-bottom: 30px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+a{
+    color: #fed9b7;
+    padding-top: 30px;
+}
+a:hover {
+    color: #f07167;
+}
+
+
+
+.card {
+    width: 400px;
+    margin: auto;
+    padding: 25px 20px 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #00afb9;
+    color: #fdfcdc;
+    box-shadow: inset 0px -50px 20px -20px #0081a7;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-size: large;
+
+}
+
+.info {
+    text-decoration: underline dotted #f07167 2px;
+    padding-top: 20px;
+}
+.info:hover {
+  transform: scale(1.15);
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
